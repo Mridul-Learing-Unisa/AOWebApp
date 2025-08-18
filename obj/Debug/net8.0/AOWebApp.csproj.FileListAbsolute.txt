@@ -258,3 +258,4 @@
 /Users/mrii/Downloads/AOWebApp/obj/Debug/net8.0/AOWebApp.pdb
 /Users/mrii/Downloads/AOWebApp/obj/Debug/net8.0/AOWebApp.genruntimeconfig.cache
 /Users/mrii/Downloads/AOWebApp/obj/Debug/net8.0/ref/AOWebApp.dll
+/Users/mrii/Downloads/AOWebApp/obj/Debug/net8.0/AOWebApp.sourcelink.json

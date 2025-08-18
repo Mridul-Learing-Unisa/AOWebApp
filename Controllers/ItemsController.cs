@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using AOWebApp.Data;
 using AOWebApp.Models;
+using AOWebApp.ViewModels;
 
 namespace AOWebApp.Controllers
 {
@@ -20,14 +21,52 @@ namespace AOWebApp.Controllers
         }
 
         // GET: Items
-        public async Task<IActionResult> Index(string searchText)
+        public async Task<IActionResult> Index(string searchText, int? CategoryId)
         {
-            var amazonDbContext = _context.Items.Include(i => i.Category).OrderBy(i=>i.ItemName).AsQueryable();
+            #region CategoriesQuery
+            
+            var Categories = _context.ItemCategories.Where(ic => ic.ParentCategoryId == null)
+            .OrderBy(ic => ic.CategoryName)
+            .Select(ic => new {ic.CategoryId, ic.CategoryName}) 
+            .ToList();
+
+            #endregion
+
+            #region ItemQuery
+            var amazonDbContext = _context.Items
+                .Include(i => i.Category)
+                .OrderBy(i=>i.ItemName)
+                .AsQueryable();
+
             if (!string.IsNullOrWhiteSpace(searchText))
-                {
+            {
                 amazonDbContext = amazonDbContext.Where(i => i.ItemName.Contains(searchText));
-                }
-            return View(await amazonDbContext.ToListAsync());
+            }
+            if (CategoryId != null)
+            {
+                amazonDbContext = amazonDbContext.Where(i => i.Category.ParentCategoryId == CategoryId);
+            }
+
+            List<ItemWithRatingsViewModel> items = await amazonDbContext
+            .Select(i => new ItemWithRatingsViewModel
+            {
+                Item = i, 
+                ReviewCount = i.Reviews.Count(),
+                AverageRating = i.Reviews.Count() > 0
+                    ? i.Reviews.Average(r => r.Rating)
+                    : (double?)null
+            })
+            .ToListAsync();
+
+            var viewModel = new ItemSearchViewModel
+            {
+                searchText = searchText,
+                CategoryId = CategoryId,
+                ItemList =  items,
+                CategoryList = new SelectList(Categories, "CategoryId", "CategoryName")
+            };
+            #endregion
+            return View(viewModel);
         }
 
         // GET: Items/Details/5
