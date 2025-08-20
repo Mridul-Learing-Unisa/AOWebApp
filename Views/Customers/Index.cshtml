@@ -1,0 +1,53 @@
+@model AOWebApp.ViewModels.CustomeSearchViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Customers</h2>
+
+<form asp-action="Index" method="get">
+    <div class="form-group">
+        <label for="searchName">Customer Name</label>
+        <input type="text" name="searchName" value="@Model.searchName" class="form-control" />
+
+        <label for="searchSuburb">Suburb</label>
+        <select name="searchSuburb" class="form-control" asp-items="@Model.suburbs">
+            <option value="">All Suburbs</option>
+        </select>
+        <p> </p>
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="Create" class="btn btn-outline-primary mt-auto">Create New</a>
+    </div>
+</form>
+
+@if (Model.customerList == null || !Model.customerList.Any())
+{
+    <p>No customers found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Suburb</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var customer in Model.customerList)
+            {
+                <tr>
+                    <td>@customer.FullName</td>
+                    <td>@customer.Address?.Suburb</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@customer.CustomerId">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@customer.CustomerId">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@customer.CustomerId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

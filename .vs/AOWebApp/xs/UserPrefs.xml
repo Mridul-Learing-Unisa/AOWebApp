@@ -1,22 +1,38 @@
 ﻿<Properties StartupConfiguration="{3E8B499D-3605-4083-A735-5FB45CA78B02}|http">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Items/Index.cshtml">
+  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/CustomersController.cs">
     <Files>
-      <File FileName="Views/Items/Index.cshtml" Line="4" Column="33" />
+      <File FileName="Controllers/CustomersController.cs" Line="35" Column="92" />
+      <File FileName="Views/Customers/Index.cshtml" Line="42" Column="43" />
+      <File FileName="Views/Items/Index.cshtml" Line="28" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="29" Column="31" />
+      <File FileName="Models/CustomerOrder.cs" Line="1" Column="1" />
+      <File FileName="Views/Customers/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Customers/Delete.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Customers/Details.cshtml" Line="1" Column="1" />
+      <File FileName="Views/Shared/_Layout.cshtml" Line="32" Column="126" />
+      <File FileName="Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Models/Customer.cs" Line="13" Column="5" />
+      <File FileName="Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Controllers/HomeController.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AOWebApp">
             <Node name="AOWebApp">
-              <Node name="Dependencies" expanded="True" />
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CustomersController.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
               <Node name="Views">
-                <Node name="Home" expanded="True" />
-                <Node name="Items">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
+                <Node name="Customers" expanded="True" />
+                <Node name="Items" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -24,10 +40,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
 </Properties>
