@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "q2AtkSwkBn13Y3xqH8JMtnewGlpLRuLn4Tn1XSuWjh0=",
+  "Hash": "J2A06UIKkItW9M5Tua5LLwF4EYPO0g5CFbKJfKO+52U=",
   "Source": "AOWebApp",
   "BasePath": "_content/AOWebApp",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/mrii/Downloads/AOWebApp/wwwroot/ItemIndex.html",
+      "SourceId": "AOWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mrii/Downloads/AOWebApp/wwwroot/",
+      "BasePath": "_content/AOWebApp",
+      "RelativePath": "ItemIndex.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/ItemIndex.html"
     },
     {
       "Identity": "/Users/mrii/Downloads/AOWebApp/wwwroot/js/site.js",
@@ -2960,6 +2979,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Identity": "/Users/mrii/Downloads/AOWebApp/wwwroot/TestAPIs.html",
+      "SourceId": "AOWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mrii/Downloads/AOWebApp/wwwroot/",
+      "BasePath": "_content/AOWebApp",
+      "RelativePath": "TestAPIs.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/TestAPIs.html"
     }
   ]
 }

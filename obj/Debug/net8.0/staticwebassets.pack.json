@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/AOWebApp.bundle.scp.css"
     },
     {
+      "Id": "/Users/mrii/Downloads/AOWebApp/wwwroot/ItemIndex.html",
+      "PackagePath": "staticwebassets/ItemIndex.html"
+    },
+    {
+      "Id": "/Users/mrii/Downloads/AOWebApp/wwwroot/TestAPIs.html",
+      "PackagePath": "staticwebassets/TestAPIs.html"
+    },
+    {
       "Id": "/Users/mrii/Downloads/AOWebApp/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

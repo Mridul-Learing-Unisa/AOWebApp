@@ -293,3 +293,9 @@
 /Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/mrii/Downloads/AOWebApp/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mrii/Downloads/AOWebApp/obj/Debug/net8.0/AOWebApp.MvcApplicationPartsAssemblyInfo.cs
