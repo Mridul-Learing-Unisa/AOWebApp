@@ -1,29 +1,35 @@
 ﻿<Properties StartupConfiguration="{3E8B499D-3605-4083-A735-5FB45CA78B02}|http">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/ItemIndex.html">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Reports/AnnualSalesReport.cshtml">
     <Files>
-      <File FileName="wwwroot/ItemIndex.html" Line="96" Column="50" IsPinned="True" />
-      <File FileName="wwwroot/TestAPIs.html" />
-      <File FileName="Models/Item.cs" />
-      <File FileName="Views/Items/Index.cshtml" />
+      <File FileName="Views/Reports/AnnualSalesReport.cshtml" Line="45" Column="1" />
+      <File FileName="Controllers/ReportsController.cs" Line="43" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AOWebApp">
             <Node name="AOWebApp">
-              <Node name="wwwroot" expanded="True">
-                <Node name="ItemIndex.html" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views">
+                <Node name="Home" expanded="True" />
+                <Node name="Items" expanded="True" />
+                <Node name="Reports">
+                  <Node name="AnnualSalesReport.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
               </Node>
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
