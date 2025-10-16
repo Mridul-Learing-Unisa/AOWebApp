@@ -27,8 +27,10 @@
 
   <ItemGroup>
     <None Remove="ViewModels\" />
+    <None Remove="Views\Reports\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
+    <Folder Include="Views\Reports\" />
   </ItemGroup>
 </Project>
