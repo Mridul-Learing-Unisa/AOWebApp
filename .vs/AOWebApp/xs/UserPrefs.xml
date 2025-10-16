@@ -1,31 +1,22 @@
 ﻿<Properties StartupConfiguration="{3E8B499D-3605-4083-A735-5FB45CA78B02}|http">
-  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/ItemsWebAPIController.cs">
+  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/ItemIndex.html">
     <Files>
-      <File FileName="Controllers/CustomersController.cs" Line="51" Column="49" />
-      <File FileName="ViewModels/CustomeSearchViewModel.cs" Line="12" Column="43" />
-      <File FileName="ViewModels/ItemSearchViewModel.cs" Line="4" Column="30" />
-      <File FileName="ViewModels/ItemWithRatingsViewModel.cs" Line="1" Column="1" />
-      <File FileName="Controllers/ItemsController.cs" Line="35" Column="13" />
-      <File FileName="Views/Customers/Index.cshtml" Line="13" Column="1" />
-      <File FileName="Views/Items/Index.cshtml" Line="1" Column="47" />
-      <File FileName="Controllers/ItemsWebAPIController.cs" Line="1" Column="1" />
+      <File FileName="wwwroot/ItemIndex.html" Line="96" Column="50" IsPinned="True" />
+      <File FileName="wwwroot/TestAPIs.html" />
+      <File FileName="Models/Item.cs" />
+      <File FileName="Views/Items/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AOWebApp">
             <Node name="AOWebApp">
-              <Node name="Controllers" expanded="True">
-                <Node name="ItemsWebAPIController.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
-              <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Customers" expanded="True" />
-                <Node name="Items" expanded="True" />
-                <Node name="Shared" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="ItemIndex.html" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -33,9 +24,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
 </Properties>
