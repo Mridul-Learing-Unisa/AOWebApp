@@ -1,26 +1,44 @@
 ﻿<Properties StartupConfiguration="{3E8B499D-3605-4083-A735-5FB45CA78B02}|http">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Reports/AnnualSalesReport.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aoreact/aowebapp/src/App.js">
     <Files>
-      <File FileName="Views/Reports/AnnualSalesReport.cshtml" Line="45" Column="1" />
-      <File FileName="Controllers/ReportsController.cs" Line="43" Column="17" />
+      <File FileName="wwwroot/TestAPIs.html" Line="1" Column="1" IsPinned="True" />
+      <File FileName="Views/Reports/AnnualSalesReport.cshtml" />
+      <File FileName="Controllers/ReportsController.cs" />
+      <File FileName="libman.json" />
+      <File FileName="package.json" />
+      <File FileName="Program.cs" />
+      <File FileName="appsettings.json" />
+      <File FileName=".gitattributes" />
+      <File FileName="wwwroot/js/site.js" />
+      <File FileName="wwwroot/ItemIndex.html" />
+      <File FileName="Controllers/CustomersController.cs" />
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Controllers/ItemsController.cs" />
+      <File FileName="Controllers/ItemsWebAPI.cs" />
+      <File FileName="Controllers/ParentCategoriesWebAPI.cs" />
+      <File FileName="aoreact/aowebapp/src/components/Card.js" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/components/CardList.js" Line="40" Column="2" />
+      <File FileName="aoreact/aowebapp/src/components/CardListSearch.js" Line="75" Column="31" />
+      <File FileName="aoreact/aowebapp/src/App.js" Line="20" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AOWebApp">
             <Node name="AOWebApp">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
-              <Node name="Views">
-                <Node name="Home" expanded="True" />
-                <Node name="Items" expanded="True" />
-                <Node name="Reports">
-                  <Node name="AnnualSalesReport.cshtml" selected="True" />
+              <Node name="aoreact" expanded="True">
+                <Node name="aowebapp">
+                  <Node name="src">
+                    <Node name="App.js" selected="True" />
+                  </Node>
                 </Node>
-                <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
@@ -29,8 +47,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

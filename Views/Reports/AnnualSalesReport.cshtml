@@ -42,8 +42,16 @@
 
         }
     })
+            
+    const chartMargins = {
+        left: 40,
+        right: 25,
+        top: 25,
+        bottom: 80,
+    }
 
-
+    w = w - (chartMargins.left + chartMargins.right)
+    h = h - (chartMargins.bottom + chartMargins.top)
     function buildGraph(dataSet) {
         console.log(dataSet);
         svg.selectAll('*').remove();
@@ -54,15 +62,7 @@
         const barMargin = 10;
         const barWidth = w / dataSet.length;
 
-        const chartMargins = {
-            left: 40,
-            right: 25,
-            top: 25,
-            bottom: 80,
-        }
-
-        w = w - (chartMargins.left + chartMargins.right)
-        h = h - (chartMargins.bottom + chartMargins.top)
+        
 
         const chartGroup = svg.append('g').classed('chartGroup', true).attr('transform', `translate(${chartMargins.left}, ${chartMargins.top})`);
 
