@@ -6,7 +6,6 @@
                 <h5 className="card-title">{props.itemName}</h5>
                 <p className="card-text">{props.itemDescription}</p>
                 <p className="card-text">${props.itemCost}</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
             </div>
         </div>
     );

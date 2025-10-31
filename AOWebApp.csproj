@@ -28,9 +28,11 @@
   <ItemGroup>
     <None Remove="ViewModels\" />
     <None Remove="Views\Reports\" />
+    <None Remove="aoreact\aowebapp\src\router\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ViewModels\" />
     <Folder Include="Views\Reports\" />
+    <Folder Include="aoreact\aowebapp\src\router\" />
   </ItemGroup>
 </Project>

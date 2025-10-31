@@ -1,19 +1,19 @@
 ﻿<Properties StartupConfiguration="{3E8B499D-3605-4083-A735-5FB45CA78B02}|http">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.AOWebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="aoreact/aowebapp/src/App.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="aoreact/aowebapp/src/router/Graph.js">
     <Files>
       <File FileName="wwwroot/TestAPIs.html" Line="1" Column="1" IsPinned="True" />
-      <File FileName="Views/Reports/AnnualSalesReport.cshtml" />
-      <File FileName="Controllers/ReportsController.cs" />
+      <File FileName="Views/Reports/AnnualSalesReport.cshtml" Line="83" Column="394" />
+      <File FileName="Controllers/ReportsController.cs" Line="52" Column="1" />
       <File FileName="libman.json" />
       <File FileName="package.json" />
-      <File FileName="Program.cs" />
+      <File FileName="Program.cs" Line="38" Column="1" />
       <File FileName="appsettings.json" />
       <File FileName=".gitattributes" />
       <File FileName="wwwroot/js/site.js" />
@@ -23,22 +23,41 @@
       <File FileName="Controllers/ItemsController.cs" />
       <File FileName="Controllers/ItemsWebAPI.cs" />
       <File FileName="Controllers/ParentCategoriesWebAPI.cs" />
-      <File FileName="aoreact/aowebapp/src/components/Card.js" Line="1" Column="1" />
-      <File FileName="aoreact/aowebapp/src/components/CardList.js" Line="40" Column="2" />
-      <File FileName="aoreact/aowebapp/src/components/CardListSearch.js" Line="75" Column="31" />
-      <File FileName="aoreact/aowebapp/src/App.js" Line="20" Column="20" />
+      <File FileName="aoreact/aowebapp/src/components/Card.js" Line="8" Column="63" />
+      <File FileName="aoreact/aowebapp/src/components/CardList.js" Line="15" Column="12" />
+      <File FileName="aoreact/aowebapp/src/components/CardListSearch.js" Line="2" Column="1" />
+      <File FileName="aoreact/aowebapp/src/App.js" Line="19" Column="73" />
+      <File FileName="aoreact/aowebapp/src/components/CardV2.js" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/App.css" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/components/CardV3.js" Line="10" Column="93" />
+      <File FileName="aoreact/aowebapp/src/index.js" Line="14" Column="13" />
+      <File FileName="aoreact/aowebapp/src/router/Home.js" Line="2" Column="1" />
+      <File FileName="aoreact/aowebapp/src/router/Contact.js" Line="9" Column="18" />
+      <File FileName="aoreact/aowebapp/src/assests/itemData.json" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/components/CardDetauks.js" Line="19" Column="17" />
+      <File FileName="aoreact/aowebapp/src/index.css" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/setupTests.js" Line="1" Column="1" />
+      <File FileName="aoreact/aowebapp/src/router/Graph.js" Line="24" Column="51" />
+      <File FileName="aoreact/aowebapp/src/logo.svg" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AOWebApp">
             <Node name="AOWebApp">
-              <Node name="aoreact" expanded="True">
+              <Node name="aoreact">
                 <Node name="aowebapp">
                   <Node name="src">
-                    <Node name="App.js" selected="True" />
+                    <Node name="assests" expanded="True" />
+                    <Node name="components" expanded="True" />
+                    <Node name="router" expanded="True">
+                      <Node name="Graph.js" selected="True" />
+                    </Node>
                   </Node>
                 </Node>
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Reports" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True" />
             </Node>
